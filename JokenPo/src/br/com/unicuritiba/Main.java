@@ -37,7 +37,7 @@ public class Main {
 		Jogada jogadaCompudor = 
 				jogadas[computadorJogadaPosicao];
 		
-		
+		if(jogadorJogadaPosicao<3) {
 		
 		if(jogadorJogadaPosicao == jogadaCompudor.getValor()){
 			System.out.println("empate");
@@ -72,16 +72,10 @@ public class Main {
 		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		}	
+		else {
+			System.out.println("vc errou so pode ir ate o 3");
+		}
 		
 	}
 
